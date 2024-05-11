@@ -18,14 +18,7 @@ At present, there is one environment (an "enumerated" stochastic game) and a spe
 
 ## Use
 
-To install via pip, run the commands
-
-```
-pip3 install .
-pip3 install -r requirements.txt
-```
-
-from the root directory.
+To install via pip, run the command `pip3 install .` from the root directory.
 
 All reward matrices have tuples of floats as entries, representing the payoffs for all agents, which requires a custom data type, `FloatTupleDtype`. The term "matrix" refers the payoff array for a stage game, which can be a multidimensional array. Within `matrixtools` are methods for converting standard arrays into arrays of tuples and vice versa. Example usage is as follows:
 
