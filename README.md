@@ -40,7 +40,7 @@ rewards = compress_matrices((A, B))
 ```
 The original matrices can be recovered using
 
-```
+```python
 extracted_matrices = extract_matrices(rewards)
 
 # extracted_matrices[0] corresponds to A
@@ -49,7 +49,7 @@ extracted_matrices = extract_matrices(rewards)
 ```
 The payoff matrix (of tuples) can be constructed directly using
 
-```
+```python
 expected_rewards = np.array([[(3, 1), (0, -1)], [(5, 2), (1, 0)]], dtype=FloatTupleDtype(2))
 ```
 
