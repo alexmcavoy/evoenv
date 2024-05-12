@@ -13,7 +13,7 @@ with open('requirements.txt') as f:
 	install_requires = f.read().splitlines()
 
 with open('README.md', 'r') as f:
-    long_description = f.read()
+	long_description = f.read()
 
 setup(
 	name=package_name,
